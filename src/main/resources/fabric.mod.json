@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gateofbabylon",
+  "version": "${version}",
+  "name": "Gate Of Babylon : Infinity Editon",
+  "description": "Adds in a large number of weapons & tools.",
+  "authors": [
+    "Xia_Xin",
+    "Draylar"
+  ],
+  "contributors": [
+    "MORTADA KILLER 0",
+    "mjneff2",
+    "ShabanPlayz"
+  ],
+  "license": "MIT",
+  "icon": "assets/gateofbabylon/icon2.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "draylar.gateofbabylon.GateOfBabylon"
+    ],
+    "client": [
+      "draylar.gateofbabylon.GateOfBabylonClient"
+    ]
+  },
+  "mixins": [
+    "gate-of-babylon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.2+build.194",
+    "fabric": "*",
+    "minecraft": ">=1.18",
+    "bettercombat": ">=1.6.2+1.18.2",
+    "gobber2": "*",
+    "botania": "*"
+  }
+}
